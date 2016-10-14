@@ -50,6 +50,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="GetConditionalTotalSumTest.cs" />
     <Compile Include="GetAlphabeticalValueTest.cs" />
     <Compile Include="GetAlphabeticSortedListTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
