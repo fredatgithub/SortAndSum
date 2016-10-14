@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 
 namespace SortAndSum
@@ -48,6 +49,7 @@ namespace SortAndSum
 			foreach (var name in sortedList)
 			{
 				countPosition++;
+
 
 				var sum = name.Sum(c => GetAlphabeticalValue(c));
 

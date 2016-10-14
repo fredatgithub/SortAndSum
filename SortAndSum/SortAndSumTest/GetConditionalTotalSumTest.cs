@@ -1,13 +1,14 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using SortAndSum;
 
 namespace SortAndSumTest
 {
 	[TestClass]
 	public class GetConditionalTotalSumTest
 	{
-		static readonly List<string> Names = new List<string>() { "MARY", "ALONSO" };
+		static readonly List<string> Names = new List<string>() { "ABC" };
 		private const char Item = 'Y';
 
 		[TestMethod]
@@ -30,8 +31,19 @@ namespace SortAndSumTest
 				totalSum += multiplyByPositionOutput;
 			}
 
-			Assert.AreEqual(350, totalSum);
+			Assert.AreEqual(6, totalSum);
 		}
+
+
+		[TestMethod]
+		public void GetConditionalTotalSum_program()
+		{
+			var result = Program.GetConditionalTotalSum(Names);
+			Assert.AreEqual(6, result);
+		}
+
+
+
 
 		public static int GetAlphabeticalValue(char c)
 		{
@@ -41,5 +53,9 @@ namespace SortAndSumTest
 
 			return valueByPosition;
 		}
+
+
+
+
 	}
 }

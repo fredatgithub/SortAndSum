@@ -10,3 +10,8 @@ C:\git_repo\SortAndSum\SortAndSum\SortAndSum\obj\Debug\SortAndSum.pdb
 C:\git_repo\SortAndSum\SortAndSum\SortAndSum\bin\Debug\SortAndSum.exe
 C:\git_repo\SortAndSum\SortAndSum\SortAndSum\bin\Debug\SortAndSum.pdb
 C:\git_repo\SortAndSum\SortAndSum\SortAndSum\obj\Debug\SortAndSum.csprojResolveAssemblyReference.cache
+C:\Github-Repo\SortAndSum\SortAndSum\SortAndSum\bin\Debug\SortAndSum.exe.config
+C:\Github-Repo\SortAndSum\SortAndSum\SortAndSum\bin\Debug\SortAndSum.exe
+C:\Github-Repo\SortAndSum\SortAndSum\SortAndSum\bin\Debug\SortAndSum.pdb
+C:\Github-Repo\SortAndSum\SortAndSum\SortAndSum\obj\Debug\SortAndSum.exe
+C:\Github-Repo\SortAndSum\SortAndSum\SortAndSum\obj\Debug\SortAndSum.pdb

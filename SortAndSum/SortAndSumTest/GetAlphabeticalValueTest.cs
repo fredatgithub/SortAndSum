@@ -1,5 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using SortAndSum;
 
 namespace SortAndSumTest
 {
@@ -10,13 +12,25 @@ namespace SortAndSumTest
 		private const char Item = 'c';
 
 		[TestMethod]
-		public void GetAlphabeticSortedList()
+		public void GetAlphabeticalValue()
 		{
 			string letter = Item.ToString();
 
 			int valueByPosition = letter.ToLower().ToCharArray()[0] - 'a' + 1;
 
 			Assert.AreEqual(3,valueByPosition);
+		}
+
+
+		[TestMethod]
+		public void GetAlphabeticSortedList1()
+		{
+
+			var position = Program.GetAlphabeticalValue('c');
+	
+			Console.WriteLine(position);
+			Assert.AreEqual(3,position);
+
 		}
 	}
 }

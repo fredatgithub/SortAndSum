@@ -55,6 +55,12 @@
     <Compile Include="GetAlphabeticSortedListTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SortAndSum\SortAndSum.csproj">
+      <Project>{12677147-323e-40ff-869b-05b9d913173a}</Project>
+      <Name>SortAndSum</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

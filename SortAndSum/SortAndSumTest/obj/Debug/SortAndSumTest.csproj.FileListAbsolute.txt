@@ -3,3 +3,10 @@ C:\git_repo\SortAndSum\SortAndSum\SortAndSumTest\bin\Debug\SortAndSumTest.pdb
 C:\git_repo\SortAndSum\SortAndSum\SortAndSumTest\obj\Debug\SortAndSumTest.csprojResolveAssemblyReference.cache
 C:\git_repo\SortAndSum\SortAndSum\SortAndSumTest\obj\Debug\SortAndSumTest.dll
 C:\git_repo\SortAndSum\SortAndSum\SortAndSumTest\obj\Debug\SortAndSumTest.pdb
+C:\Github-Repo\SortAndSum\SortAndSum\SortAndSumTest\bin\Debug\SortAndSumTest.dll
+C:\Github-Repo\SortAndSum\SortAndSum\SortAndSumTest\bin\Debug\SortAndSumTest.pdb
+C:\Github-Repo\SortAndSum\SortAndSum\SortAndSumTest\bin\Debug\SortAndSum.exe
+C:\Github-Repo\SortAndSum\SortAndSum\SortAndSumTest\bin\Debug\SortAndSum.pdb
+C:\Github-Repo\SortAndSum\SortAndSum\SortAndSumTest\obj\Debug\SortAndSumTest.csprojResolveAssemblyReference.cache
+C:\Github-Repo\SortAndSum\SortAndSum\SortAndSumTest\obj\Debug\SortAndSumTest.dll
+C:\Github-Repo\SortAndSum\SortAndSum\SortAndSumTest\obj\Debug\SortAndSumTest.pdb
