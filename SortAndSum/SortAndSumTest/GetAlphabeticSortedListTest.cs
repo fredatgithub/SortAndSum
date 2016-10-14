@@ -18,8 +18,7 @@ namespace SortAndSumTest
 
 			bool isOrderedAscending = sortedList.SequenceEqual(sortedList.OrderBy(x => x));
 
-			Assert.AreEqual(isOrderedAscending,true);
+			Assert.AreEqual(isOrderedAscending, true);
 		}
-
 	}
 }

@@ -28,7 +28,8 @@ namespace SortAndSumTest
 				var multiplyByPositionOutput = countPosition * sum;
 
 				totalSum += multiplyByPositionOutput;
-				}
+			}
+
 			Assert.AreEqual(350, totalSum);
 		}
 
