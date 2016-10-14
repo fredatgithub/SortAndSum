@@ -23,7 +23,7 @@ namespace SortAndSumTest
 
 
 		[TestMethod]
-		public void GetAlphabeticSortedList1()
+		public void GetAlphabeticSortedList_Progran()
 		{
 
 			var position = Program.GetAlphabeticalValue('c');

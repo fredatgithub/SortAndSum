@@ -50,8 +50,16 @@ namespace SortAndSum
 			{
 				countPosition++;
 
+				var sum = 0;
+				
+				//var sum = name.Sum(c => GetAlphabeticalValue(c));
 
-				var sum = name.Sum(c => GetAlphabeticalValue(c));
+				foreach (char letter in name)
+				{
+					var alphabeticPosition = GetAlphabeticalValue(letter);
+
+					sum += alphabeticPosition;
+				}
 
 				var multiplyByPositionOutput = countPosition * sum;
 

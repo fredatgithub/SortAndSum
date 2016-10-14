@@ -9,7 +9,6 @@ namespace SortAndSumTest
 	public class GetConditionalTotalSumTest
 	{
 		static readonly List<string> Names = new List<string>() { "ABC" };
-		private const char Item = 'Y';
 
 		[TestMethod]
 		public void GetConditionalTotalSum()
@@ -24,7 +23,7 @@ namespace SortAndSumTest
 			{
 				countPosition++;
 
-				var sum = name.Sum(c => GetAlphabeticalValue(Item));
+				var sum = name.Sum(c => Program.GetAlphabeticalValue(c));
 
 				var multiplyByPositionOutput = countPosition * sum;
 
@@ -41,21 +40,6 @@ namespace SortAndSumTest
 			var result = Program.GetConditionalTotalSum(Names);
 			Assert.AreEqual(6, result);
 		}
-
-
-
-
-		public static int GetAlphabeticalValue(char c)
-		{
-			string letter = c.ToString();
-
-			int valueByPosition = letter.ToLower().ToCharArray()[0] - 'a' + 1;
-
-			return valueByPosition;
-		}
-
-
-
 
 	}
 }
