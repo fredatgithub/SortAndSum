@@ -4,3 +4,6 @@ c:\users\worldfavor2\documents\visual studio 2013\Projects\SortAndSum\SortAndSum
 c:\users\worldfavor2\documents\visual studio 2013\Projects\SortAndSum\SortAndSum\obj\Debug\SortAndSum.csprojResolveAssemblyReference.cache
 c:\users\worldfavor2\documents\visual studio 2013\Projects\SortAndSum\SortAndSum\obj\Debug\SortAndSum.exe
 c:\users\worldfavor2\documents\visual studio 2013\Projects\SortAndSum\SortAndSum\obj\Debug\SortAndSum.pdb
+C:\git_repo\SortAndSum\SortAndSum\SortAndSum\bin\Debug\SortAndSum.exe.config
+C:\git_repo\SortAndSum\SortAndSum\SortAndSum\obj\Debug\SortAndSum.exe
+C:\git_repo\SortAndSum\SortAndSum\SortAndSum\obj\Debug\SortAndSum.pdb
