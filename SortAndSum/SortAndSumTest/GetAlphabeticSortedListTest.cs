@@ -15,10 +15,10 @@ namespace SortAndSumTest
 		public void GetAlphabeticSortedList()
 		{
 			var sortedList = Names.OrderBy(x => x).ToList();
-			foreach (var each in sortedList)
-			{
-				Console.WriteLine(each);
-			}
+
+			bool isOrderedAscending = sortedList.SequenceEqual(sortedList.OrderBy(x => x));
+
+			Assert.AreEqual(isOrderedAscending,true);
 		}
 	}
 }

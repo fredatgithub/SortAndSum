@@ -1,0 +1,5 @@
+C:\git_repo\SortAndSum\SortAndSum\SortAndSumTest\bin\Debug\SortAndSumTest.dll
+C:\git_repo\SortAndSum\SortAndSum\SortAndSumTest\bin\Debug\SortAndSumTest.pdb
+C:\git_repo\SortAndSum\SortAndSum\SortAndSumTest\obj\Debug\SortAndSumTest.csprojResolveAssemblyReference.cache
+C:\git_repo\SortAndSum\SortAndSum\SortAndSumTest\obj\Debug\SortAndSumTest.dll
+C:\git_repo\SortAndSum\SortAndSum\SortAndSumTest\obj\Debug\SortAndSumTest.pdb
